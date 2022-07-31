@@ -1,12 +1,10 @@
-package com.matheustt.smartctl;
+# JAVA SMARTCL
 
-import java.util.List;
-import java.util.Map.Entry;
+This is a simple implementation with the SMARTMONTOOLS library.
 
-public final class App {
-
-    public static void main(String[] args) {
-
+Usage 
+```java   
+        // Get a list of devices from your computer with smart and information
         List<StorageDevice> devices = SmartCTL.getStorageDevices(true, true);
 
         for (StorageDevice device : devices) {
@@ -49,5 +47,5 @@ public final class App {
             System.out.println();
         }
 
-    }
-}
+
+```
