@@ -4,7 +4,7 @@ This is a simple implementation with the SMARTMONTOOLS library.
 
 ## Dependencies 
 
-- smartmontools 
+- smartmontools `https://www.smartmontools.org/`
 
 `If you are using windows, the smartctl command must be allowed on the command line (Added as a PATH variable)`
 
