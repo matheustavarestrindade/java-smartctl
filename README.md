@@ -2,7 +2,13 @@
 
 This is a simple implementation with the SMARTMONTOOLS library.
 
-Usage 
+## Dependencies 
+
+    - smartmontools
+        - If you are using windows, the smartctl command must be allowed on the command line (Added as a PATH variable)
+        
+## Usage 
+
 ```java   
         // Get a list of devices from your computer with smart and information
         List<StorageDevice> devices = SmartCTL.getStorageDevices(true, true);
