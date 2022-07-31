@@ -8,6 +8,19 @@ This is a simple implementation with the SMARTMONTOOLS library.
 
 `If you are using windows, the smartctl command must be allowed on the command line (Added as a PATH variable)`
 
+## Installation
+
+- Run `sh install.sh`
+- Add the dependency on your project in maven
+
+```XML
+    <dependency>
+      <groupId>com.matheustt.smartctl</groupId>
+      <artifactId>java-smartctl</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+```
+
 ## Usage 
 
 ```java   
